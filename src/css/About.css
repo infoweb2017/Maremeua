@@ -1,0 +1,36 @@
+/*About.css*/
+
+
+.perfil-img {
+  max-width: 140px;
+  width: 80%;
+  height: auto;
+  border-radius: 100%;
+  border: 3x solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.texto-intro p {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.historia-paella {
+  background-color: #fefefe;
+  border-top: 2px solid #e6e6e6;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (max-width: 991px) {
+  .perfil-img {
+    max-width: 100px;
+    width: 30%;
+    margin-bottom: 15px;
+  }
+
+}

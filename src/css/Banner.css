@@ -1,0 +1,21 @@
+.info-bar-text {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.banner-button {
+    background-color: #007bff; /* Ejemplo de color primario */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    cursor: pointer;
+  }
+  
+  .banner-button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,42 @@
+/* css/HeroSection.css */
+.carousel-item {
+    position: relative;
+    /* Necesario para posicionar la capa overlay */
+    max-height: 65vh;
+    height: 65vh;
+    overflow: hidden;
+    /* Asegura que la capa no se salga */
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Negro semitransparente (ajusta la opacidad según necesites) */
+}
+
+.hero-caption-title {
+    color: white;
+    font-weight: 500;
+}
+
+.hero-caption-text {
+    color: white;
+    font-weight: 500;
+}
+
+.hero-caption-button {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}

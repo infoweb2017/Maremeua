@@ -1,0 +1,23 @@
+.testimonios-container {
+    margin-top: 1rem;
+    /* Ajusta este valor según necesites */
+    width: 50%;
+}
+
+/* Si no tienes estilos globales para esto */
+.bg-light {
+    background-color: #f8f9fa !important;
+    /* Un gris muy claro */
+}
+
+.rounded {
+    border-radius: 0.5rem !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.p-5 {
+    padding: 3rem !important;
+}
